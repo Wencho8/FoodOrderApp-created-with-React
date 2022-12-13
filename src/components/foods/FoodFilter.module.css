@@ -1,0 +1,23 @@
+.foodFilter {
+    color: white;
+  }
+  
+  .foodFilterControl {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  
+  .foodFlter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .foodFilter select {
+    font: italic;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 9px;
+  }

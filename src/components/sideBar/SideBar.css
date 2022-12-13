@@ -1,0 +1,92 @@
+.side-bar-container {
+    background: rgba(0,0,0,0.5);
+	width: 300px;
+    height: 100vh;
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+    transition: 0.4s;
+    flex-direction: column; 
+
+	
+}
+
+.side-bar-container-nx {
+    background: rgba(0,0,0,0.5);
+	width: 0px;
+    height: 100vh;
+    align-items: center ;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+	transition: 0.4s;
+}
+
+
+
+
+.boton {
+    background-color: rgb(233, 223, 223);
+    position: fixed;
+    border: 2px solid;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: -270px;
+    transform: rotate(90deg);
+}
+
+.boton-nx{
+    background-color: rgb(233, 223, 223);
+    position: fixed;
+    border: 2px solid;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-right: -90px;
+
+}
+
+.boton:hover,
+  .boton:active {
+    background-color: #3d3d3d;
+  }
+
+  .boton-nx:hover,
+  .boton-nx:active {
+    background-color: #3d3d3d;
+  }
+
+
+  .grid {
+    display: grid;
+    align-items: center;
+    margin-top: 120px;
+    transition: 0.7s;
+
+	
+}
+  .buttonChoice {
+
+    height: 60px;
+    width: 90px;
+    cursor: pointer;
+    transition: 0.4s;
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.buttonChoice:hover,
+  .buttonChoice:active {
+    background-color: #641e03;
+    border-color: #641e03;
+  }
