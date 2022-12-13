@@ -1,5 +1,5 @@
 # FoodOrderApp-created-with-React
-  FoodOrder App created with React. A project that englobes a lot of functionalities of react, and includes an advanced use of Hooks such as useContext, useReducer, useRef, useEffect and useState.
+  FrontEnd of FoodOrder App created with React. A project that englobes a lot of functionalities of react, and includes an advanced use of Hooks such as useContext, useReducer, useRef, useEffect and useState.
   For styling, css modules were used.
 
 ![2saasd](https://user-images.githubusercontent.com/103704812/207213562-4912a3d2-0869-43d2-b581-169d7462df1d.png)
